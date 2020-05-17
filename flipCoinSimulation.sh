@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+HEAD
 heads=0
 tails=0
 while [ $tails -le 21 -o $heads -le 21 ]
@@ -23,4 +24,5 @@ elif [ $heads -lt $tails ]
 then
 	echo "Tails Wins..."
 fi
+
 
